@@ -41,7 +41,7 @@ object FeatureEngineering {
       "label")
   }
 
-  //calculate inner product between user embedding and item embedding
+  // calculate inner product between user embedding and item embedding
   def calculateEmbeddingInnerProduct(samples:DataFrame): DataFrame ={
     import samples.sparkSession.implicits._
 
